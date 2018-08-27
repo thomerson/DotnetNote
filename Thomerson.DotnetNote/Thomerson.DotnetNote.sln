@@ -7,13 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thomerson.DotnetNote", "Tho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetDelegate", "DotnetDelegate\DotnetDelegate.csproj", "{3158A9F3-B36C-4E6C-8DA4-2DEF2BD7E6F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Tuple", "Dotnet.Tuple\Dotnet.Tuple.csproj", "{74E49F70-1FF0-4977-8EF6-93CD01EEC3C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.Tuple", "Dotnet.Tuple\Dotnet.Tuple.csproj", "{74E49F70-1FF0-4977-8EF6-93CD01EEC3C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Linq", "Dotnet.Linq\Dotnet.Linq.csproj", "{05C2D4EE-D49A-44B0-8946-0FC75DF373AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.Linq", "Dotnet.Linq\Dotnet.Linq.csproj", "{05C2D4EE-D49A-44B0-8946-0FC75DF373AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.WebAPI", "Dotnet.WebAPI\Dotnet.WebAPI.csproj", "{F331E5BE-7F61-43CB-A550-5F8A0A53B1B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.WebAPI", "Dotnet.WebAPI\Dotnet.WebAPI.csproj", "{F331E5BE-7F61-43CB-A550-5F8A0A53B1B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Async", "Dotnet.Async\Dotnet.Async.csproj", "{807DA87E-82D5-43D4-9F9F-DEF3ABDE72F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.Async", "Dotnet.Async\Dotnet.Async.csproj", "{807DA87E-82D5-43D4-9F9F-DEF3ABDE72F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dotnet.RabbitMQ", "Dotnet.RabbitMQ", "{688CB494-9369-4BE3-931F-0381E2526770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.RabbitMQ.Producer", "Dotnet.RabbitMQ.Producer\Dotnet.RabbitMQ.Producer.csproj", "{DB5BD93F-6955-4520-8B40-67E3D224924B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.RabbitMQ.Consumer", "Dotnet.RabbitMQ.Consumer\Dotnet.RabbitMQ.Consumer.csproj", "{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Reflect", "Dotnet.Reflect\Dotnet.Reflect.csproj", "{8E5BF224-C7AE-41F4-A852-43851183E6F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +53,25 @@ Global
 		{807DA87E-82D5-43D4-9F9F-DEF3ABDE72F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{807DA87E-82D5-43D4-9F9F-DEF3ABDE72F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{807DA87E-82D5-43D4-9F9F-DEF3ABDE72F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5BD93F-6955-4520-8B40-67E3D224924B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5BD93F-6955-4520-8B40-67E3D224924B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5BD93F-6955-4520-8B40-67E3D224924B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5BD93F-6955-4520-8B40-67E3D224924B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5BF224-C7AE-41F4-A852-43851183E6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5BF224-C7AE-41F4-A852-43851183E6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5BF224-C7AE-41F4-A852-43851183E6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5BF224-C7AE-41F4-A852-43851183E6F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB5BD93F-6955-4520-8B40-67E3D224924B} = {688CB494-9369-4BE3-931F-0381E2526770}
+		{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1} = {688CB494-9369-4BE3-931F-0381E2526770}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E71AB0B5-4D6B-4A1C-B398-58324B7187D1}

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace Dotnet.Linq
 {
@@ -6,8 +8,30 @@ namespace Dotnet.Linq
     {
         static void Main(string[] args)
         {
-            //https://www.cnblogs.com/liqingwen/p/5801249.html TODO
+
+
             Console.WriteLine("Hello World!");
         }
+
+        static void Sort()
+        {
+            var words = new[] { "the", "quick", "brown", "fox", "jumps" };
+            var query = from word in words
+                        orderby word.Length
+                        select word;
+
+            foreach (var word in query)
+            {
+                Console.WriteLine(word);
+            }
+
+        }
+    }
+
+    class User
+    {
+        int id { get; set; }
+        string name { get; set; }
+
     }
 }

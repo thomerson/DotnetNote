@@ -18,3 +18,9 @@
 /Thomerson.DotnetNote/DotnetEvent/obj
 /Thomerson.DotnetNote/Thomerson.DotnetNote/bin/Debug/netcoreapp2.0
 /Thomerson.DotnetNote/Thomerson.DotnetNote/obj
+/Thomerson.DotnetNote/Dotnet.RabbitMQ.Consumer/bin/Debug/netcoreapp2.0
+/Thomerson.DotnetNote/Dotnet.RabbitMQ.Consumer/obj
+/Thomerson.DotnetNote/Dotnet.RabbitMQ.Producer/bin/Debug/netcoreapp2.0
+/Thomerson.DotnetNote/Dotnet.RabbitMQ.Producer/obj
+/Thomerson.DotnetNote/Dotnet.Reflect/bin/Debug/netcoreapp2.0
+/Thomerson.DotnetNote/Dotnet.Reflect/obj
