@@ -17,11 +17,26 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.Async", "Dotnet.Asyn
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dotnet.RabbitMQ", "Dotnet.RabbitMQ", "{688CB494-9369-4BE3-931F-0381E2526770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.RabbitMQ.Producer", "Dotnet.RabbitMQ.Producer\Dotnet.RabbitMQ.Producer.csproj", "{DB5BD93F-6955-4520-8B40-67E3D224924B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.RabbitMQ.Producer", "Dotnet.RabbitMQ.Producer\Dotnet.RabbitMQ.Producer.csproj", "{DB5BD93F-6955-4520-8B40-67E3D224924B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.RabbitMQ.Consumer", "Dotnet.RabbitMQ.Consumer\Dotnet.RabbitMQ.Consumer.csproj", "{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.RabbitMQ.Consumer", "Dotnet.RabbitMQ.Consumer\Dotnet.RabbitMQ.Consumer.csproj", "{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Reflect", "Dotnet.Reflect\Dotnet.Reflect.csproj", "{8E5BF224-C7AE-41F4-A852-43851183E6F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.Reflect", "Dotnet.Reflect\Dotnet.Reflect.csproj", "{8E5BF224-C7AE-41F4-A852-43851183E6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Collection", "Dotnet.Collection\Dotnet.Collection.csproj", "{C379F33C-236C-42C7-A466-2B33DE42C75E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Socket", "Socket", "{E0E69838-DC8A-4D85-9C6F-9EC2ACD44FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Socket.Server", "Dotnet.Socket.Server\Dotnet.Socket.Server.csproj", "{03D8A013-6AFF-4A33-BFB9-0625044E91A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Socket.Client", "Dotnet.Socket.Client\Dotnet.Socket.Client.csproj", "{4FA93EE6-B574-40BE-8958-407E5A49C4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Note", "Note", "{F53F3554-69DF-482C-84D0-AD69BE400BDB}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.rd = ReadMe.rd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Event", "Dotnet.Event\Dotnet.Event.csproj", "{1CF1760C-746E-4AA4-9D19-4EBAD90CF7F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +80,22 @@ Global
 		{8E5BF224-C7AE-41F4-A852-43851183E6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E5BF224-C7AE-41F4-A852-43851183E6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E5BF224-C7AE-41F4-A852-43851183E6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C379F33C-236C-42C7-A466-2B33DE42C75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C379F33C-236C-42C7-A466-2B33DE42C75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C379F33C-236C-42C7-A466-2B33DE42C75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C379F33C-236C-42C7-A466-2B33DE42C75E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D8A013-6AFF-4A33-BFB9-0625044E91A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D8A013-6AFF-4A33-BFB9-0625044E91A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D8A013-6AFF-4A33-BFB9-0625044E91A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D8A013-6AFF-4A33-BFB9-0625044E91A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA93EE6-B574-40BE-8958-407E5A49C4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA93EE6-B574-40BE-8958-407E5A49C4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA93EE6-B574-40BE-8958-407E5A49C4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA93EE6-B574-40BE-8958-407E5A49C4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF1760C-746E-4AA4-9D19-4EBAD90CF7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF1760C-746E-4AA4-9D19-4EBAD90CF7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF1760C-746E-4AA4-9D19-4EBAD90CF7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF1760C-746E-4AA4-9D19-4EBAD90CF7F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +103,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DB5BD93F-6955-4520-8B40-67E3D224924B} = {688CB494-9369-4BE3-931F-0381E2526770}
 		{AD3282E5-8C7F-44FC-B9D7-028EA2A5F4E1} = {688CB494-9369-4BE3-931F-0381E2526770}
+		{03D8A013-6AFF-4A33-BFB9-0625044E91A0} = {E0E69838-DC8A-4D85-9C6F-9EC2ACD44FA7}
+		{4FA93EE6-B574-40BE-8958-407E5A49C4C1} = {E0E69838-DC8A-4D85-9C6F-9EC2ACD44FA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E71AB0B5-4D6B-4A1C-B398-58324B7187D1}

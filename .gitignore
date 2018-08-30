@@ -24,3 +24,12 @@
 /Thomerson.DotnetNote/Dotnet.RabbitMQ.Producer/obj
 /Thomerson.DotnetNote/Dotnet.Reflect/bin/Debug/netcoreapp2.0
 /Thomerson.DotnetNote/Dotnet.Reflect/obj
+/Thomerson.DotnetNote/Dotnet.Collection/bin/Debug
+/Thomerson.DotnetNote/Dotnet.Collection/obj/Debug
+/Thomerson.DotnetNote/Dotnet.Event/bin/Debug
+/Thomerson.DotnetNote/Dotnet.Event/obj/Debug
+/Thomerson.DotnetNote/Dotnet.Socket.Client/bin
+/Thomerson.DotnetNote/Dotnet.Socket.Client/obj/Debug
+/Thomerson.DotnetNote/Dotnet.Socket.Server/bin/Debug
+/Thomerson.DotnetNote/Dotnet.Socket.Server/obj/Debug
+/Thomerson.DotnetNote/packages
