@@ -19,7 +19,7 @@ namespace Dotnet.Event.withEventHandler
 
             var master = new Master("MM", cat);
 
-            cat.Cry_Event();
+            cat.Cry();
 
         }
     }

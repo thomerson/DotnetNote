@@ -12,10 +12,10 @@ namespace Dotnet.Event.withEventHandler
         public Master(string name, Cat cat)
         {
             this.name = name;
-            cat.CustomEvent += WakeUp;
+            cat.CustomEvent += WakeUp_Event;
         }
 
-        public void WakeUp(object sender, EventArgs args)
+        public void WakeUp_Event(object sender, EventArgs args)
         {
             Console.WriteLine(this.name + " wake up");
         }

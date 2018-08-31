@@ -6,14 +6,16 @@ namespace Thomerson.DotnetNote
     {
         static void Main(string[] args)
         {
-            var rest = new ObjectTest();
+            //var rest = new ObjectTest();
             //rest.Test();
 
             //rest.Test2();
 
             //rest.Test3();
 
-            rest.Test();
+            //rest.Test();
+
+            DotnetMath.Test();
             Console.WriteLine("Hello World!");
             Console.ReadLine();
         }
