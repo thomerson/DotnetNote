@@ -10,7 +10,9 @@ namespace Dotnet.MultiThread
     {
         static void Main(string[] args)
         {
-            ThreadTest.Test();
+            //ThreadTest.Test();
+            //ThreadPoolTest.Test();
+            MultiTask.TaskTest.Test();
             Console.ReadLine();
         }
     }
