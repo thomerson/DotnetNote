@@ -15,9 +15,15 @@ namespace Thomerson.DotnetNote
 
             //rest.Test();
 
-            DotnetMath.Test();
+            //Inherit.B.Test();
+
+            Virtual.B.Test();
+
+
+            //DotnetMath.Test();
             Console.WriteLine("Hello World!");
             Console.ReadLine();
+
         }
     }
 }

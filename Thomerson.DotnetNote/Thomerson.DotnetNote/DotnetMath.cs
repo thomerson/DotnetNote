@@ -16,6 +16,9 @@ namespace Thomerson.DotnetNote
             Console.WriteLine("Math.Round(1.2600, 2) = " + Math.Round(1.2600, 2));
             Console.WriteLine("Math.Round(1.2550, 2) = " + Math.Round(1.2550, 2));
             Console.WriteLine("Math.Round(1.2551, 2) = " + Math.Round(1.2551, 2));
+
+            //四舍五入
+            Console.WriteLine("Math.Round(1.2551, 2) = " + Math.Round(1.2551, 2, MidpointRounding.AwayFromZero));
         }
     }
 }

@@ -12,7 +12,8 @@ namespace Dotnet.MultiThread
         {
             //ThreadTest.Test();
             //ThreadPoolTest.Test();
-            MultiTask.TaskTest.Test();
+            //MultiTask.TaskTest.Test();
+            MultiTask.TaskTest.TaskFactoryTest();
             Console.ReadLine();
         }
     }

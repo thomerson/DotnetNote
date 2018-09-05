@@ -46,5 +46,22 @@ namespace Dotnet.MultiThread.MultiTask
                 return "string";
             });
         }
+
+        public static void TaskFactoryTest()
+        {
+            var factory = new TaskFactory();
+
+            for (int i = 0; i < 10; i++)
+            {
+                var task = factory.StartNew(() =>
+                {
+                    Console.WriteLine("Task : {0}", i);
+                    System.Threading.Thread.Sleep(5000);
+                    return i;
+                });
+
+                Console.WriteLine("Task Result: {0}", task.Result);
+            }
+        }
     }
 }
