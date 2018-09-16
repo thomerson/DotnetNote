@@ -17,8 +17,11 @@ namespace Thomerson.DotnetNote
 
             //Inherit.B.Test();
 
-            Virtual.B.Test();
+            //Virtual.B.Test();
 
+            //EqualTest.Test();
+
+            Function.NewOverrideTest.Test();
 
             //DotnetMath.Test();
             Console.WriteLine("Hello World!");
